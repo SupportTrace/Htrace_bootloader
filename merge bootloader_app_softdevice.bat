@@ -1,0 +1,1 @@
+"C:\Program Files\Nordic Semiconductor\nrf5x\bin\mergehex.exe" -m ..\sdk\components\softdevice\s132\hex\s132_nrf52_6.1.0_softdevice.hex wise_dfu_settings.hex -o wise_full.hex

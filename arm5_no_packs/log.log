@@ -1,0 +1,455 @@
+2019-Jan-24 16:34:34  --------------------------------------------------------------------------------
+2019-Jan-24 16:34:34  C:\Program Files\Nordic Semiconductor\nrf5x\bin\nrfjprog.exe --reset --family NRF52 --log --program ..\wise_dfu_settings.HEX
+2019-Jan-24 16:34:34  nrfjprog version 9.8.1
+2019-Jan-24 16:34:34  --------------------------------------------------------------------------------
+2019-Jan-24 16:34:34  nRF_open_dll
+2019-Jan-24 16:34:34  . nRF52_open_dll
+2019-Jan-24 16:34:34  . . nRF52_dll_version
+2019-Jan-24 16:34:34  nRF_enum_emu_snr
+2019-Jan-24 16:34:34  . nRF52_enum_emu_snr
+2019-Jan-24 16:34:34  . . nRF52_enum_emu_snr
+2019-Jan-24 16:34:34  nRF_enum_emu_snr
+2019-Jan-24 16:34:34  . nRF52_enum_emu_snr
+2019-Jan-24 16:34:34  . . nRF52_enum_emu_snr
+2019-Jan-24 16:34:34  nRF_connect_to_emu_with_snr
+2019-Jan-24 16:34:34  . nRF52_connect_to_emu_with_snr
+2019-Jan-24 16:34:34  . . nRF52_is_connected_to_emu
+2019-Jan-24 16:34:34  . . nRF52_enum_emu_snr
+2019-Jan-24 16:34:34  . . nRF52_connect_to_emu_with_snr
+2019-Jan-24 16:34:34  . . . nRF52_connect_to_emu_without_snr
+2019-Jan-24 16:34:34  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Firmware: J-Link OB-STM32F072-CortexM compiled Mar  8 2020 11:15:54
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Hardware: V1.00
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 TELNET listener socket opened on port 19021
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV  Starting webserver
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0051ms, 0058ms total)  
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV Webserver running on local port 19081
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0054ms, 0061ms total)  
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns O.K.
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0056ms, 0063ms total)  
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_GetHWStatus(...)
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0003ms, 0067ms total)  
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	There is no generic nRF52 device in J-Link, so we select NRF52832_xxAA.
+
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("Device = NRF52832_xxAA", ...). 
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	XML file found at: C:\Program Files (x86)\SEGGER\JLink_V640\JLinkDevices.xml
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0070ms total)  
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	C:\Program Files (x86)\SEGGER\JLink_V640\JLinkDevices.xml evaluated successfully.
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0089ms, 0157ms total)  
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetRestartOnClose = 0", ...). 
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0159ms total)  
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("DisableFlashDL", ...). 
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0162ms total)  
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetDbgPowerDownOnClose = 1", ...). 
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0165ms total)  
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...). 
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0000ms, 0168ms total)  
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_TIF_Select(JLINKARM_TIF_SWD)
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0171ms total)  
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_SetSpeed(2000)
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0174ms total)  
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLinkARM.dll GetSN returned error '-1.
+
+2019-Jan-24 16:34:35  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_Close()
+2019-Jan-24 16:34:35  nRF_close_dll
+2019-Jan-24 16:34:35  . nRF52_close_dll
+2019-Jan-24 16:34:35  . . nRF52_is_connected_to_emu
+2019-Jan-24 16:36:11  --------------------------------------------------------------------------------
+2019-Jan-24 16:36:11  C:\Program Files\Nordic Semiconductor\nrf5x\bin\nrfjprog.exe --reset --family NRF52 --log --program ..\wise_dfu_settings.HEX
+2019-Jan-24 16:36:11  nrfjprog version 9.8.1
+2019-Jan-24 16:36:11  --------------------------------------------------------------------------------
+2019-Jan-24 16:36:11  nRF_open_dll
+2019-Jan-24 16:36:11  . nRF52_open_dll
+2019-Jan-24 16:36:11  . . nRF52_dll_version
+2019-Jan-24 16:36:11  nRF_enum_emu_snr
+2019-Jan-24 16:36:11  . nRF52_enum_emu_snr
+2019-Jan-24 16:36:11  . . nRF52_enum_emu_snr
+2019-Jan-24 16:36:11  nRF_enum_emu_snr
+2019-Jan-24 16:36:11  . nRF52_enum_emu_snr
+2019-Jan-24 16:36:11  . . nRF52_enum_emu_snr
+2019-Jan-24 16:36:11  nRF_connect_to_emu_with_snr
+2019-Jan-24 16:36:11  . nRF52_connect_to_emu_with_snr
+2019-Jan-24 16:36:11  . . nRF52_is_connected_to_emu
+2019-Jan-24 16:36:11  . . nRF52_enum_emu_snr
+2019-Jan-24 16:36:11  . . nRF52_connect_to_emu_with_snr
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Firmware: J-Link OB-STM32F072-CortexM compiled Mar  8 2020 11:15:54
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Hardware: V1.00
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 TELNET listener socket opened on port 19021
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV  Starting webserver
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0046ms, 0053ms total)  
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV Webserver running on local port 19081
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0053ms, 0060ms total)  
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns O.K.
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0057ms, 0064ms total)  
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_GetHWStatus(...)
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0006ms, 0072ms total)  
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	There is no generic nRF52 device in J-Link, so we select NRF52832_xxAA.
+
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("Device = NRF52832_xxAA", ...). 
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	XML file found at: C:\Program Files (x86)\SEGGER\JLink_V640\JLinkDevices.xml
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0003ms, 0080ms total)  
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	C:\Program Files (x86)\SEGGER\JLink_V640\JLinkDevices.xml evaluated successfully.
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0097ms, 0174ms total)  
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetRestartOnClose = 0", ...). 
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0000ms, 0176ms total)  
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("DisableFlashDL", ...). 
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0179ms total)  
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetDbgPowerDownOnClose = 1", ...). 
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0000ms, 0181ms total)  
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...). 
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0000ms, 0183ms total)  
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_TIF_Select(JLINKARM_TIF_SWD)
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0003ms, 0187ms total)  
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_SetSpeed(2000)
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0188ms total)  
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLinkARM.dll GetSN returned error '-1.
+
+2019-Jan-24 16:36:11  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_Close()
+2019-Jan-24 16:36:11  nRF_close_dll
+2019-Jan-24 16:36:11  . nRF52_close_dll
+2019-Jan-24 16:36:11  . . nRF52_is_connected_to_emu
+2019-Jan-24 16:36:26  --------------------------------------------------------------------------------
+2019-Jan-24 16:36:26  C:\Program Files\Nordic Semiconductor\nrf5x\bin\nrfjprog.exe --reset --family NRF52 --log --program ..\wise_dfu_settings.HEX
+2019-Jan-24 16:36:26  nrfjprog version 9.8.1
+2019-Jan-24 16:36:26  --------------------------------------------------------------------------------
+2019-Jan-24 16:36:26  nRF_open_dll
+2019-Jan-24 16:36:26  . nRF52_open_dll
+2019-Jan-24 16:36:26  . . nRF52_dll_version
+2019-Jan-24 16:36:26  nRF_enum_emu_snr
+2019-Jan-24 16:36:26  . nRF52_enum_emu_snr
+2019-Jan-24 16:36:26  . . nRF52_enum_emu_snr
+2019-Jan-24 16:36:26  nRF_enum_emu_snr
+2019-Jan-24 16:36:26  . nRF52_enum_emu_snr
+2019-Jan-24 16:36:26  . . nRF52_enum_emu_snr
+2019-Jan-24 16:36:26  nRF_connect_to_emu_with_snr
+2019-Jan-24 16:36:26  . nRF52_connect_to_emu_with_snr
+2019-Jan-24 16:36:26  . . nRF52_is_connected_to_emu
+2019-Jan-24 16:36:26  . . nRF52_enum_emu_snr
+2019-Jan-24 16:36:26  . . nRF52_connect_to_emu_with_snr
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Firmware: J-Link OB-STM32F072-CortexM compiled Mar  8 2020 11:15:54
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Hardware: V1.00
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 TELNET listener socket opened on port 19021
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV  Starting webserver
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0044ms, 0049ms total)  
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV Webserver running on local port 19081
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0046ms, 0051ms total)  
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns O.K.
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0048ms, 0053ms total)  
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_GetHWStatus(...)
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0003ms, 0057ms total)  
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	There is no generic nRF52 device in J-Link, so we select NRF52832_xxAA.
+
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("Device = NRF52832_xxAA", ...). 
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	XML file found at: C:\Program Files (x86)\SEGGER\JLink_V640\JLinkDevices.xml
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0060ms total)  
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	C:\Program Files (x86)\SEGGER\JLink_V640\JLinkDevices.xml evaluated successfully.
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0097ms, 0155ms total)  
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetRestartOnClose = 0", ...). 
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0157ms total)  
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("DisableFlashDL", ...). 
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0000ms, 0158ms total)  
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetDbgPowerDownOnClose = 1", ...). 
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0161ms total)  
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...). 
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0165ms total)  
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_TIF_Select(JLINKARM_TIF_SWD)
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0003ms, 0169ms total)  
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_SetSpeed(2000)
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0171ms total)  
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLinkARM.dll GetSN returned error '-1.
+
+2019-Jan-24 16:36:26  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_Close()
+2019-Jan-24 16:36:26  nRF_close_dll
+2019-Jan-24 16:36:26  . nRF52_close_dll
+2019-Jan-24 16:36:26  . . nRF52_is_connected_to_emu
+2019-Jan-24 16:37:08  --------------------------------------------------------------------------------
+2019-Jan-24 16:37:08  C:\Program Files\Nordic Semiconductor\nrf5x\bin\nrfjprog.exe --reset --family NRF52 --log --program ..\wise_dfu_settings.HEX
+2019-Jan-24 16:37:08  nrfjprog version 9.8.1
+2019-Jan-24 16:37:08  --------------------------------------------------------------------------------
+2019-Jan-24 16:37:08  nRF_open_dll
+2019-Jan-24 16:37:08  . nRF52_open_dll
+2019-Jan-24 16:37:08  . . nRF52_dll_version
+2019-Jan-24 16:37:08  nRF_enum_emu_snr
+2019-Jan-24 16:37:08  . nRF52_enum_emu_snr
+2019-Jan-24 16:37:08  . . nRF52_enum_emu_snr
+2019-Jan-24 16:37:08  nRF_enum_emu_snr
+2019-Jan-24 16:37:08  . nRF52_enum_emu_snr
+2019-Jan-24 16:37:08  . . nRF52_enum_emu_snr
+2019-Jan-24 16:37:08  nRF_connect_to_emu_with_snr
+2019-Jan-24 16:37:08  . nRF52_connect_to_emu_with_snr
+2019-Jan-24 16:37:08  . . nRF52_is_connected_to_emu
+2019-Jan-24 16:37:08  . . nRF52_enum_emu_snr
+2019-Jan-24 16:37:08  . . nRF52_connect_to_emu_with_snr
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Firmware: J-Link OB-STM32F072-CortexM compiled Mar  8 2020 11:15:54
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Hardware: V1.00
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 TELNET listener socket opened on port 19021
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV  Starting webserver
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0044ms, 0050ms total)  
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV Webserver running on local port 19081
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0050ms, 0056ms total)  
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns O.K.
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0054ms, 0060ms total)  
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_GetHWStatus(...)
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0005ms, 0067ms total)  
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	There is no generic nRF52 device in J-Link, so we select NRF52832_xxAA.
+
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("Device = NRF52832_xxAA", ...). 
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	XML file found at: C:\Program Files (x86)\SEGGER\JLink_V640\JLinkDevices.xml
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0073ms total)  
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	C:\Program Files (x86)\SEGGER\JLink_V640\JLinkDevices.xml evaluated successfully.
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0089ms, 0160ms total)  
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetRestartOnClose = 0", ...). 
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0163ms total)  
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("DisableFlashDL", ...). 
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0003ms, 0167ms total)  
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetDbgPowerDownOnClose = 1", ...). 
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0171ms total)  
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...). 
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0175ms total)  
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_TIF_Select(JLINKARM_TIF_SWD)
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0003ms, 0179ms total)  
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_SetSpeed(2000)
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0181ms total)  
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLinkARM.dll GetSN returned error '-1.
+
+2019-Jan-24 16:37:08  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_Close()
+2019-Jan-24 16:37:08  nRF_close_dll
+2019-Jan-24 16:37:08  . nRF52_close_dll
+2019-Jan-24 16:37:08  . . nRF52_is_connected_to_emu
+2019-Jan-26 15:20:48  --------------------------------------------------------------------------------
+2019-Jan-26 15:20:48  C:\Program Files\Nordic Semiconductor\nrf5x\bin\nrfjprog.exe --reset --family NRF52 --log --program ..\wise_dfu_settings.HEX
+2019-Jan-26 15:20:48  nrfjprog version 9.8.1
+2019-Jan-26 15:20:48  --------------------------------------------------------------------------------
+2019-Jan-26 15:20:48  nRF_open_dll
+2019-Jan-26 15:20:48  . nRF52_open_dll
+2019-Jan-26 15:20:48  . . nRF52_dll_version
+2019-Jan-26 15:20:48  nRF_enum_emu_snr
+2019-Jan-26 15:20:48  . nRF52_enum_emu_snr
+2019-Jan-26 15:20:48  . . nRF52_enum_emu_snr
+2019-Jan-26 15:20:49  nRF_enum_emu_snr
+2019-Jan-26 15:20:49  . nRF52_enum_emu_snr
+2019-Jan-26 15:20:49  . . nRF52_enum_emu_snr
+2019-Jan-26 15:20:49  nRF_connect_to_emu_with_snr
+2019-Jan-26 15:20:49  . nRF52_connect_to_emu_with_snr
+2019-Jan-26 15:20:49  . . nRF52_is_connected_to_emu
+2019-Jan-26 15:20:49  . . nRF52_enum_emu_snr
+2019-Jan-26 15:20:49  . . nRF52_connect_to_emu_with_snr
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Firmware: J-Link OB-STM32F072-CortexM compiled Mar  8 2020 11:15:54
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Hardware: V1.00
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 TELNET listener socket opened on port 19021
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV  Starting webserver
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0049ms, 0060ms total)  
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV Webserver running on local port 19081
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0052ms, 0063ms total)  
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns O.K.
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0054ms, 0065ms total)  
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_GetHWStatus(...)
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0067ms total)  
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	There is no generic nRF52 device in J-Link, so we select NRF52832_xxAA.
+
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("Device = NRF52832_xxAA", ...). 
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	XML file found at: C:\Program Files (x86)\SEGGER\JLink_V640\JLinkDevices.xml
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0017ms, 0087ms total)  
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	C:\Program Files (x86)\SEGGER\JLink_V640\JLinkDevices.xml evaluated successfully.
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0269ms, 0339ms total)  
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetRestartOnClose = 0", ...). 
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0343ms total)  
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("DisableFlashDL", ...). 
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0348ms total)  
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetDbgPowerDownOnClose = 1", ...). 
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0353ms total)  
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...). 
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0358ms total)  
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_TIF_Select(JLINKARM_TIF_SWD)
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0005ms, 0364ms total)  
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_SetSpeed(2000)
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0367ms total)  
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLinkARM.dll GetSN returned error '-1.
+
+2019-Jan-26 15:20:49  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_Close()
+2019-Jan-26 15:20:49  nRF_close_dll
+2019-Jan-26 15:20:49  . nRF52_close_dll
+2019-Jan-26 15:20:49  . . nRF52_is_connected_to_emu
+2019-Jan-26 15:22:18  --------------------------------------------------------------------------------
+2019-Jan-26 15:22:18  C:\Program Files\Nordic Semiconductor\nrf5x\bin\nrfjprog.exe --reset --family NRF52 --log --program ..\wise_dfu_settings.HEX
+2019-Jan-26 15:22:18  nrfjprog version 9.8.1
+2019-Jan-26 15:22:18  --------------------------------------------------------------------------------
+2019-Jan-26 15:22:18  nRF_open_dll
+2019-Jan-26 15:22:18  . nRF52_open_dll
+2019-Jan-26 15:22:18  . . nRF52_dll_version
+2019-Jan-26 15:22:18  nRF_enum_emu_snr
+2019-Jan-26 15:22:18  . nRF52_enum_emu_snr
+2019-Jan-26 15:22:18  . . nRF52_enum_emu_snr
+2019-Jan-26 15:22:18  nRF_enum_emu_snr
+2019-Jan-26 15:22:18  . nRF52_enum_emu_snr
+2019-Jan-26 15:22:18  . . nRF52_enum_emu_snr
+2019-Jan-26 15:22:18  nRF_connect_to_emu_with_snr
+2019-Jan-26 15:22:18  . nRF52_connect_to_emu_with_snr
+2019-Jan-26 15:22:18  . . nRF52_is_connected_to_emu
+2019-Jan-26 15:22:18  . . nRF52_enum_emu_snr
+2019-Jan-26 15:22:18  . . nRF52_connect_to_emu_with_snr
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Firmware: J-Link OB-STM32F072-CortexM compiled Mar  8 2020 11:15:54
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Hardware: V1.00
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 TELNET listener socket opened on port 19021
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV  Starting webserver
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0028ms, 0032ms total)  
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV Webserver running on local port 19081
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0031ms, 0035ms total)  
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns O.K.
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0033ms, 0037ms total)  
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_GetHWStatus(...)
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0003ms, 0041ms total)  
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	There is no generic nRF52 device in J-Link, so we select NRF52832_xxAA.
+
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("Device = NRF52832_xxAA", ...). 
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	XML file found at: C:\Program Files (x86)\SEGGER\JLink_V640\JLinkDevices.xml
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0003ms, 0046ms total)  
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	C:\Program Files (x86)\SEGGER\JLink_V640\JLinkDevices.xml evaluated successfully.
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0094ms, 0137ms total)  
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetRestartOnClose = 0", ...). 
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0139ms total)  
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("DisableFlashDL", ...). 
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0141ms total)  
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetDbgPowerDownOnClose = 1", ...). 
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0144ms total)  
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...). 
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0148ms total)  
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_TIF_Select(JLINKARM_TIF_SWD)
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0151ms total)  
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_SetSpeed(2000)
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0153ms total)  
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLinkARM.dll GetSN returned error '-1.
+
+2019-Jan-26 15:22:18  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_Close()
+2019-Jan-26 15:22:18  nRF_close_dll
+2019-Jan-26 15:22:18  . nRF52_close_dll
+2019-Jan-26 15:22:18  . . nRF52_is_connected_to_emu
+2019-Jan-26 15:22:31  --------------------------------------------------------------------------------
+2019-Jan-26 15:22:31  C:\Program Files\Nordic Semiconductor\nrf5x\bin\nrfjprog.exe --reset --family NRF52 --log --program ..\wise_dfu_settings.HEX
+2019-Jan-26 15:22:31  nrfjprog version 9.8.1
+2019-Jan-26 15:22:31  --------------------------------------------------------------------------------
+2019-Jan-26 15:22:31  nRF_open_dll
+2019-Jan-26 15:22:31  . nRF52_open_dll
+2019-Jan-26 15:22:31  . . nRF52_dll_version
+2019-Jan-26 15:22:31  nRF_enum_emu_snr
+2019-Jan-26 15:22:31  . nRF52_enum_emu_snr
+2019-Jan-26 15:22:31  . . nRF52_enum_emu_snr
+2019-Jan-26 15:22:31  nRF_enum_emu_snr
+2019-Jan-26 15:22:31  . nRF52_enum_emu_snr
+2019-Jan-26 15:22:31  . . nRF52_enum_emu_snr
+2019-Jan-26 15:22:31  nRF_connect_to_emu_with_snr
+2019-Jan-26 15:22:31  . nRF52_connect_to_emu_with_snr
+2019-Jan-26 15:22:31  . . nRF52_is_connected_to_emu
+2019-Jan-26 15:22:31  . . nRF52_enum_emu_snr
+2019-Jan-26 15:22:31  . . nRF52_connect_to_emu_with_snr
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Firmware: J-Link OB-STM32F072-CortexM compiled Mar  8 2020 11:15:54
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Hardware: V1.00
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	 Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	 TELNET listener socket opened on port 19021
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV  Starting webserver
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0046ms, 0054ms total)  
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	WEBSRV Webserver running on local port 19081
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0049ms, 0057ms total)  
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns O.K.
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0051ms, 0059ms total)  
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_GetHWStatus(...)
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0061ms total)  
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	There is no generic nRF52 device in J-Link, so we select NRF52832_xxAA.
+
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("Device = NRF52832_xxAA", ...). 
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	XML file found at: C:\Program Files (x86)\SEGGER\JLink_V640\JLinkDevices.xml
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0065ms total)  
+2019-Jan-26 15:22:31  . . . nRF52_connect_to_emu_without_snr:	JLink:	C:\Program Files (x86)\SEGGER\JLink_V640\JLinkDevices.xml evaluated successfully.
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	Device "NRF52832_XXAA" selected.
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0091ms, 0155ms total)  
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetRestartOnClose = 0", ...). 
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0158ms total)  
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("DisableFlashDL", ...). 
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0160ms total)  
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("SetDbgPowerDownOnClose = 1", ...). 
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x01
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0162ms total)  
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...). 
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0001ms, 0166ms total)  
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_TIF_Select(JLINKARM_TIF_SWD)
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	  returns 0x00
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0004ms, 0173ms total)  
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_SetSpeed(2000)
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	 (0002ms, 0176ms total)  
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLinkARM.dll GetSN returned error '-1.
+
+2019-Jan-26 15:22:32  . . . nRF52_connect_to_emu_without_snr:	JLink:	JLINK_Close()
+2019-Jan-26 15:22:32  nRF_close_dll
+2019-Jan-26 15:22:32  . nRF52_close_dll
+2019-Jan-26 15:22:32  . . nRF52_is_connected_to_emu
